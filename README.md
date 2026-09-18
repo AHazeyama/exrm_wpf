@@ -105,5 +105,9 @@ doxygen Doxyfile
 > [!NOTE]
 >　各ツールの軽量版として Tkinter 実装も公開しています。
 
+## Development Tutorial  
+　開発手順は下記より参照ください。  
+　🔗[exrm_wpf Development Tutorial](https://github.com/AHazeyama/preview/blob/main/templates/exrm_WPF_VS2026.md)  
+  
 ## License  
 　TBD  
