@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BEAB0FF3-D87C-80DA-62F4-849ED8897F96}|exrm_wpf.csproj|c:\\users\\atsus\\bin\\git_dir\\exrm_wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEAB0FF3-D87C-80DA-62F4-849ED8897F96}|exrm_wpf.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEAB0FF3-D87C-80DA-62F4-849ED8897F96}|exrm_wpf.csproj|c:\\users\\atsus\\bin\\git_dir\\exrm_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BEAB0FF3-D87C-80DA-62F4-849ED8897F96}|exrm_wpf.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +34,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-14T04:50:14.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ExrmCore.cs",
               "DocumentMoniker": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\ExrmCore.cs",
               "RelativeDocumentMoniker": "ExrmCore.cs",
@@ -42,19 +58,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-14T00:41:32.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T00:41:32.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\atsus\\bin\\Git_dir\\exrm_wpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
