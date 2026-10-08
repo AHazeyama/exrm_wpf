@@ -30,7 +30,7 @@
             <Button Grid.Column="2"
                     Content="Select"
                     Click="Select_Click"
-                    Style="{StaticResource SubButtonStyle}"/>
+                    Style="{StaticResource SelectButtonStyle}"/>
         </Grid>
 
         <Grid Grid.Row="1" Margin="0,0,0,8">
@@ -75,7 +75,8 @@
                     Click="Scan_Click"
                     Style="{StaticResource ScanButtonStyle}"/>
 
-            <Button Content="Delete"
+<!--            <Button Content="Delete" -->
+            <Button Content="ExRemove"
                     Width="95"
                     Margin="0,0,8,0"
                     Click="Delete_Click"
@@ -97,7 +98,7 @@
                     Width="95"
                     Margin="0,0,8,0"
                     Click="Help_Click"
-                    Style="{StaticResource SubButtonStyle}"/>
+                    Style="{StaticResource HelpButtonStyle}"/>
 
             <Button Content="Exit"
                     Width="95"

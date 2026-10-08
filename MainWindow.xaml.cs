@@ -137,7 +137,7 @@ namespace exrm_wpf
                 }
 
                 AppendLog($"\nTotal: {_scanTargets.Count}\n", Brushes.DeepSkyBlue);
-                AppendLog("\n※ Scanでは削除しません。Deleteで実行します。\n", Brushes.Yellow);
+                AppendLog("\n※ [Scan]では削除しません。[ExRemove]で削除します。\n", Brushes.Yellow);
             }
             catch (Exception ex)
             {
@@ -150,13 +150,13 @@ namespace exrm_wpf
         {
             if (_scanTargets.Count == 0)
             {
-                MessageBox.Show("先に Scan を実行してください。", "Delete", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("先に Scan を実行してください。", "ExRemove", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
             }
 
             var result = MessageBox.Show(
                 "Scan結果を削除します。\n実体は .exrm_backup に移動され、Undoで復元できます。\n\n実行しますか？",
-                "Confirm Delete",
+                "Confirm ExRemove",
                 MessageBoxButton.YesNo,
                 MessageBoxImage.Warning);
 
@@ -295,11 +295,11 @@ namespace exrm_wpf
                 "1. Select で対象ディレクトリを指定します。\n" +
                 "2. not removed words に残したい文字列を入力します。\n" +
                 "3. Scan で削除対象を確認します。\n" +
-                "4. Delete で Scan 結果を削除します。\n" +
+                "4. ExRemove で Scan 結果を削除します。\n" +
                 "5. Undo で直前の削除を復元できます。\n\n" +
                 "Clear は not removed words の入力内容のみを消します。\n\n" +
                 "注意:\n" +
-                "Delete は完全削除ではなく .exrm_backup への移動です。",
+                "ExRemove は完全削除ではなく .exrm_backup への移動です。",
                 "Help",
                 MessageBoxButton.OK,
                 MessageBoxImage.Information);

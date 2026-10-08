@@ -4,7 +4,7 @@
 </p>
 
 # exclusive removal tool [exrm_wpf]
-![](./assets/exrm_wpf.png)
+<img src="./assets/exrm_wpf.png">  
 
 ## Overview
 　指定した文字列を **含まない** ファイル / ディレクトリを一括削除するためのデスクトップツールです。  
@@ -96,18 +96,16 @@
 doxygen Doxyfile  
 　```  
 　生成後、以下のファイルをブラウザで開くことでドキュメントを確認できます。  
-　```  
-🗁 docs/html/index.html  
-　```
+　　<img src="./assets/env/M_dir.png" height="14"> docs/html/index.html  
 
 ## Download  
-　🔗 https://github.com/AHazeyama/public/releases/latest  
+　[<img src="./assets/env/M_link.png" height="14">  Download Repository](https://github.com/AHazeyama/public/releases/latest)
 > [!NOTE]
 >　各ツールの軽量版として Tkinter 実装も公開しています。
 
 ## Development Tutorial  
 　開発手順は下記より参照ください。  
-　🔗[exrm_wpf Development Tutorial](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/exrm_WPF_VS2026.md)  
+　<img src="./assets/env/M_link.png" height="14"> [exrm_wpf Development Tutorial](https://github.com/AHazeyama/SoftwareDevelopmentGuide/blob/main/templates/exrm_WPF_VS2026.md)  
   
 ## License  
 　TBD  

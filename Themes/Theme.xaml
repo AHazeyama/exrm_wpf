@@ -26,10 +26,6 @@
         <Setter Property="Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-<!--
-                    <GradientStop Color="#35DFFF" Offset="0"/>
-                    <GradientStop Color="#00A6D6" Offset="1"/>
--->
                     <GradientStop Color="#CCFFFF" Offset="0"/>
                     <GradientStop Color="#00ABD0" Offset="1"/>
                 </LinearGradientBrush>
@@ -42,12 +38,8 @@
         <Setter Property="Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-<!--
-                    <GradientStop Color="#FF6B6B" Offset="0"/>
-                    <GradientStop Color="#D00000" Offset="1"/>
--->
-                    <GradientStop Color="#FFCCFF" Offset="0"/>
-                    <GradientStop Color="#FF0066" Offset="1"/>
+                    <GradientStop Color="#FFCCCC" Offset="0"/>
+                    <GradientStop Color="#AA0000" Offset="1"/>
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
@@ -55,18 +47,37 @@
 
     <!-- Undo : Yellow -->
     <Style x:Key="UndoButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
-        <Setter Property="Foreground" Value="#222222"/>
+<!--        <Setter Property="Foreground" Value="#222222"/> -->
         <Setter Property="Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-<!--
-                    <GradientStop Color="#FFF176" Offset="0"/>
-                    <GradientStop Color="#FBC02D" Offset="1"/>
+                    <GradientStop Color="#FFFFCC" Offset="0"/>
+                    <GradientStop Color="#FFB000" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
 
-                    <GradientStop Color="#FFFFCC" Offset="0"/>
--->
-                    <GradientStop Color="#FFFFCC" Offset="0"/>
-                    <GradientStop Color="#FBC02D" Offset="1"/>
+    <!-- Help : Green -->
+    <Style x:Key="HelpButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+<!--        <Setter Property="Foreground" Value="#222222"/> -->
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#CCFFCC" Offset="0"/>
+                    <GradientStop Color="#009944" Offset="1"/>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- Select : Purple -->
+    <Style x:Key="SelectButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
+        <Setter Property="Background">
+            <Setter.Value>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Color="#E6D5FF" Offset="0"/>
+                    <GradientStop Color="#6600FF" Offset="1"/>
                 </LinearGradientBrush>
             </Setter.Value>
         </Setter>
@@ -77,10 +88,6 @@
         <Setter Property="Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-<!--				
-                    <GradientStop Color="#444444" Offset="0"/>
-                    <GradientStop Color="#111111" Offset="1"/>
--->
                     <GradientStop Color="#CCCCCC" Offset="0"/>
                     <GradientStop Color="#111111" Offset="1"/>
                 </LinearGradientBrush>
@@ -90,14 +97,10 @@
 
     <!-- Other : Gray -->
     <Style x:Key="SubButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
-        <Setter Property="Foreground" Value="#222222"/>
+<!--        <Setter Property="Foreground" Value="#222222"/> -->
         <Setter Property="Background">
             <Setter.Value>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-<!--
-                    <GradientStop Color="#EEEEEE" Offset="0"/>
-                    <GradientStop Color="#BDBDBD" Offset="1"/>
--->
                     <GradientStop Color="#CCCCCC" Offset="0"/>
                     <GradientStop Color="#5F5F5F" Offset="1"/>
                 </LinearGradientBrush>
